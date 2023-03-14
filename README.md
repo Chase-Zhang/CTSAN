@@ -101,7 +101,6 @@ Please organize your prepared training/validation/testing sets ( .img or .jpg im
 cd ./code
 
 python main.py --save  path_to_save_result  --dir_data train_data_path   --dir_data_test validation_data_path  --epochs total_epoch_number  --batch_size 8
-
 ``` 
 
 The result will be saved in "./experiment".  
@@ -115,7 +114,6 @@ If you want to get some intermediate results, please set the optional item save_
 cd ./code
 
 python inference.py  --data_path  test_data_path  --model_path saved_model_parameter_path  
-
 ```
 
 The result will be saved in "./infer_results".
