@@ -26,21 +26,35 @@ Please organize your own prepared training/validation/testing sets following thi
 >>>>|--frame 1 
 >>>>|--frame 2
 >>>>|--frame 3
->>>>   ......
+>>>>   .
+>>>>   .
+>>>>   .
+>>>>|--frame n 
 >>>|--656nm
 >>>>|--frame 1 
 >>>>|--frame 2
->>>>   ......
+>>>>|--frame 3
+>>>>   .
+>>>>   .
+>>>>   .
+>>>>|--frame n 
 >>|--gt
 >>>|--705nm
 >>>>|--frame 1 
 >>>>|--frame 2
->>>>   ......
-
+>>>>|--frame 3
+>>>>   .
+>>>>   .
+>>>>   .
+>>>>|--frame n 
 >>>|--656nm
 >>>>|--frame 1 
 >>>>|--frame 2
->>>>   ......
+>>>>|--frame 3
+>>>>   .
+>>>>   .
+>>>>   .
+>>>>|--frame n 
 
 
 
