@@ -54,6 +54,12 @@ cupy:
 2. Please download it from [here]() if you want to use the CTSAN parameters trained on our NVST real AO dataset.  
 
    After download, please put them into this folder: "./Trained_Model".
+   
+   
+   
+3. Please download it from [here]() if you want to use our NVST real AO testing dataset.  
+
+   After download, please put them into this folder: "./dataset".
 
 
 
