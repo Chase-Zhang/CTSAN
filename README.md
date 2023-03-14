@@ -36,13 +36,13 @@ Please organize your own prepared training/validation/testing sets following thi
 >>>705nm
 >>>>frame 1 
 >>>>frame 2
->>>>.
->>>>.
+>>>>...
+
 >>>656nm
 >>>>frame 1 
 >>>>frame 2
->>>>.
->>>>.
+>>>>...
+
 
 
 
