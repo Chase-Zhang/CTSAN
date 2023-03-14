@@ -65,7 +65,7 @@ cupy:
 
 ### Dataset Organization
 
-Please organize your prepared training/validation/testing sets (.img or .jpg image format) following this catalog structure:
+Please organize your prepared training/validation/testing sets ( .img or .jpg image format ) following this catalog structure:
 ```
 |--dataset
    |--blur
