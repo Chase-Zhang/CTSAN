@@ -45,7 +45,7 @@ cupy:
 ```
 ### Download
 
-1. Please download the PWC-Net Pretrained model frome [here](https://github.com/sniklaus/pytorch-pwc) if your want to train/test CTSAN.  
+1. Please download the PWC-Net Pretrained parameter frome [here]( ) if your want to train/test CTSAN.  
 
    After download the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
 		
