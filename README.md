@@ -18,24 +18,24 @@ cupy: pip install cupy-cuda117 or conda install -c anaconda cupy
 
 
 ## Dataset Organization
-Please organize your prepared training/validation/testing sets following this catalog structure:  
+Please organize your prepared training/validation/testing sets following this catalog structure:  \<br>
 
-|--dataset  
-  |--blur
-    |--burst 1
-      |--frame 1 
-      |--frame 2
-      |--   .
-      |--   .
-      |--frame n
-     |--burst 2
-  |--gt
-    |--burst 1
-      |--   .
-      |--   .
-    |--burst 2
-      |--   .
-      |--   .
+dataset  \<br>
+	blur\<br>
+			burst 1\<br>
+					frame 1 \<br>
+					frame 2\<br>
+					.\<br>
+					.\<br>
+					frame n\<br>
+			burst 2\<br>
+	gt\<br>
+			burst 1\<br>
+					.\<br>
+					.\<br>
+			burst 2\<br>
+					.\<br>
+					.\<br>
 
 
 
