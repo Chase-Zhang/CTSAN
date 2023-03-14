@@ -47,7 +47,6 @@ Please organize your prepared training/validation/testing sets following this ca
 
 ```
 
-OJ
 
 ## Training
 
