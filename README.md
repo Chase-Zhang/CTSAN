@@ -33,6 +33,16 @@ Please organize your prepared training/validation/testing sets following this ca
 			|--		.
 			|--burst n
 	|--gt
+			|--burst 1
+					|--frame 1
+					|--frame 2
+					|--		.
+					|--		.
+					|--frame n
+			|--burst 2
+			|--		.
+			|--		.
+			|--burst n
 		
 
 ```
