@@ -18,6 +18,32 @@ cupy: pip install cupy-cuda117 or conda install -c anaconda cupy
 
 
 ## Dataset Organization
+Please organize your own prepared training/validation/testing sets following this structure:
+```
+>Dataset 
+>>blur
+>>>705nm
+>>>>frame 1 
+>>>>frame 2
+>>>>.
+>>>>.
+>>>656nm
+>>>>frame 1 
+>>>>frame 2
+>>>>.
+>>>>.
+>>gt
+>>>705nm
+>>>>frame 1 
+>>>>frame 2
+>>>>.
+>>>>.
+>>>656nm
+>>>>frame 1 
+>>>>frame 2
+>>>>.
+>>>>.
+```
 
 
 ## Training
