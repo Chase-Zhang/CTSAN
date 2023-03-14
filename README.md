@@ -1,4 +1,7 @@
-# Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration (CTSAN)
+# CTSAN
+
+Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration
+
 ![Image text](https://github.com/ChiZhangGit/CTSAN/main/IMG/CTSAN_architecture.pdf)
 
 ### Environments and Dependencies
