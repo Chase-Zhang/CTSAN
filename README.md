@@ -25,15 +25,12 @@ Please organize your prepared training/validation/testing sets following this ca
 >>>|--burst 1
 >>>>|--frame 1 
 >>>>|-- frame 2
->>>>|--.
->>>>|--.
+
 >>>|--burst 2
 >>|--gt
 >>>|--burst 1
 >>>>>>>|--frame 1 
 >>>>|-- frame 2
->>>>|--.
->>>>|--.
 >>>|--burst 2
 
 
