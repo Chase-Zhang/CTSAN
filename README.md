@@ -2,7 +2,9 @@
 
 Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration
 
-![Image text](./CTSAN.png)
+![An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
+single TSAN unit. Panel (c) shows the forward propagation process of CTSAN. It should be noted that the same trained TSAN parameter is used
+four times to construct the cascaded two-stage architecture.](./CTSAN.png)
 
 ### Environments and Dependencies
 We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
