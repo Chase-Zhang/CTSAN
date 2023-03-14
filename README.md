@@ -2,7 +2,7 @@
 
 Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration
 
-![Image text](https://github.com/ChiZhangGit/CTSAN/main/IMG/CTSAN_architecture.pdf)
+![Image text](./CTSAN.png)
 
 ### Environments and Dependencies
 We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
