@@ -5,12 +5,12 @@
 An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
 single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of TSAN parameter is trained during backward propagation and then used four times in forward propagation to construct the cascaded two-stage architecture. 
 
-![CTSAN](./CTSAN.png)
+![CTSAN](./img_display/CTSAN.png)
 
 
 CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
 
-![results](./result_on5th.png)
+![results](./img_display/result_5th.png)
 
 ### Environments and Dependencies
 
