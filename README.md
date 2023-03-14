@@ -1,18 +1,19 @@
 # CTSAN
 
-Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration
+### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration
+
+An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
+single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of TSAN parameter is trained during backward propagation and then used four times in forward propagation to construct the cascaded two-stage architecture. 
 
 ![CTSAN](./CTSAN.png)
 
-An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
-single TSAN unit. Panel (c) shows the forward propagation process of CTSAN. It should be noted that the same trained TSAN parameter is used
-four times to construct the cascaded two-stage architecture.
 
-CTSAN has a stable performance on the lowest granulation contrast frames in TiO testing sets of NVST corrected with GLAO, indicating that our cascaded network may be able to maintain stable performance in actual astronomical observation conditions.
+CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
 
-![results](./CTSAN.png)
+![results](./result_on5th.png)
 
 ### Environments and Dependencies
+
 We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
 ```
 Python 3 (Anaconda is preferred)  
@@ -43,17 +44,21 @@ cupy:
 	
 ```
 ### Download
-1. Please download the PWC-Net Pretrained model frome [here](https://github.com/sniklaus/pytorch-pwc) if your want to train/test CTSAN.   
-  
-		After download the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
-		
-		
-2. If you want to use the CTSAN parameters trained on our NVST real AO dataset, please download it from [here]().  
 
-		After download, please put them into this folder: "./Trained_Model".
-	
+1. Please download the PWC-Net Pretrained model frome [here](https://github.com/sniklaus/pytorch-pwc) if your want to train/test CTSAN.  
+
+   After download the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
+		
+
+
+2. Please download it from [here]() if you want to use the CTSAN parameters trained on our NVST real AO dataset.  
+
+   After download, please put them into this folder: "./Trained_Model".
+
+
 
 ### Dataset Organization
+
 Please organize your prepared training/validation/testing sets following this catalog structure:
 ```
 |--dataset
@@ -86,7 +91,29 @@ Please organize your prepared training/validation/testing sets following this ca
 
 ### Training
 
+```
+cd ./code
+python main.py --save  path_to_save_result  --dir_data train_data_path   --dir_data_test validation_data_path  --epochs total_epoch_number  --batch_size 8
+
+``` 
+
+The result will be saved in "./experiment".  
+
+If you want to get some intermediate results, please set the optional item save_images in the path of "./code/option/init.py" as True, which will greatly prolong the training time.
+
+
 ### Inference
+
+```
+cd ./code
+python inference.py  --data_path  test_data_path  --model_path saved_model_parameter_path  
+
+```
+
+The result will be saved in "./infer_results".
+
+If you want to save the restored results as image formats, please set the optional item save_images in the path of "./code/inference.py" as True, which will greatly prolong the inference time.
+
 
 ### Citation
 
@@ -99,6 +126,7 @@ Please organize your prepared training/validation/testing sets following this ca
   year={2023},  
   publisher={EDP Sciences}  
 }
+
 
 ### Contact Us
 
