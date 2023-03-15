@@ -3,22 +3,23 @@
 ### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration
 
 
-By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * authors contributed equally, † corresponding author ).
+* By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * authors contributed equally, † corresponding author ).
 
 
-This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
+* This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
 
 
 ### Overview
 
-An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
-single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of TSAN parameter is trained during backward propagation and then used four times in forward propagation to construct the cascaded two-stage architecture. 
+* An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
+single TSAN unit. Panel (c) shows the forward process of CTSAN. 
+* Only one set of TSAN parameter is trained during backward propagation and then used four times in forward propagation to construct the cascaded two-stage architecture. 
 
 
 ![CTSAN](./img_display/CTSAN.png)
 
 ### Result
-CTSAN has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
+* CTSAN has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
 
 ![results](./img_display/result_5th.png)
 
@@ -27,7 +28,7 @@ CTSAN has a stable performance in restoring lowest granulation contrast frames o
 
 ### Environments and Dependencies
 
-We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
+* We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
 ```
 Python 3 (Anaconda is preferred)  
 
@@ -78,7 +79,7 @@ cupy:
 
 ### Dataset Organization
 
-Please organize your prepared training/validation/testing sets ( .img or .jpg image format ) following this catalog structure:
+* Please organize your prepared training/validation/testing sets ( .img or .jpg image format ) following this catalog structure:
 ```
 |--dataset
    |--blur
@@ -116,9 +117,9 @@ cd ./code
 python main.py --save  path_to_save_your_result  --dir_data your_training_data_path   --dir_data_test your_validation_data_path  --epochs total_epoch_number  --batch_size 8
 ``` 
 
-After setting these five parameters, the result will be saved in "./experiment".  
+* After setting these five parameters, the result will be saved in "./experiment".  
 
-If you want to get some intermediate results, please set the optional item save_images in the path of "./code/option/init.py" as True, which will greatly prolong the training time.
+* If you want to get some intermediate results, please set the optional item save_images in the path of "./code/option/init.py" as True, which will greatly prolong the training time.
 
 
 ### Inference
@@ -130,9 +131,9 @@ cd ./code
 python inference.py  --data_path  your_test_data_path  --model_path saved_model_parameter_path  
 ```
 
-After setting these two paths, the result will be saved in "./infer_results".
+* After setting these two paths, the result will be saved in "./infer_results".
 
-If you want to save the restored results as image formats, please set the optional item save_images in the path of "./code/inference.py" as True, which will greatly prolong the inference time.
+* If you want to save the restored results as image formats, please set the optional item save_images in the path of "./code/inference.py" as True, which will greatly prolong the inference time.
 
 
 
@@ -140,14 +141,14 @@ If you want to save the restored results as image formats, please set the option
 
 
 
-Please place your test data and our trained parameter according to the dir at the last few lines of file inference.py, and then:
+* Please place your test data and our trained parameter according to the dir at the last few lines of file inference.py, and then:
 ```
 cd ./code
 
 python inference.py  --default_data ./Trained_Model/model_abbreviation
 ```
 
-Three trained models are provided in our google drive, 
+* Three trained models are provided in our google drive, 
 
 	CTSAN_TiO_Convergent.pt for restoring 705nm data (--default_data  TiO), 
 
@@ -170,4 +171,4 @@ Three trained models are provided in our google drive,
 
 ### Contact Us
 
-Please send email to zhangchi[dot]ch[AT]gmail.com or wangshuai0601[AT]uestc[dot]edu[dot]cn.
+* Please send email to zhangchi[dot]ch[AT]gmail.com or wangshuai0601[AT]uestc[dot]edu[dot]cn.
