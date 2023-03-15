@@ -60,13 +60,13 @@ cupy:
 ```
 ### Download from Google Drive
 
-1. Please download the PWC-Net Pretrained parameter frome [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if your want to train/test CTSAN.  
+1. Please download the PWC-Net Pretrained parameter from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if your want to train/test CTSAN.  
 
    After download the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
 		
 
 
-2. Please download it from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link)  if you want to use the CTSAN parameters trained on our NVST real AO dataset.  
+2. Please download our pretrained parameters from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link)  if you want to use the CTSAN parameters trained on our NVST real AO dataset.  
 
    After download, please put them into this folder: "./Trained_Model".
    
