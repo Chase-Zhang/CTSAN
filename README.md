@@ -139,4 +139,4 @@ If you want to save the restored results as image formats, please set the option
 
 ### Contact Us
 
-Please send email to zhangchi.ch@gmail.com or wangshuai0601@uestc.edu.cn.
+Please send email to zhangchi[dot]ch[AT]gmail.com or wangshuai0601[AT]uestc[dot]edu[dot]cn.
