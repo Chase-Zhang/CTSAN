@@ -70,11 +70,9 @@ cupy:
    After download, please put them into this folder: "./Trained_Model".
    
    
-   
-3. Please download it from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if you want to use our NVST real AO testing dataset.  
+### Open Source Dataset
 
-   After download, please put them into this folder: "./dataset".
-
+* We have released a portion of testing sets in CSSTN website, please download from [here](https://github.com/ShuaiWangUESTC/CSSTN/tree/main/datasets/data/DeepVideoDeblurringDataset/test/data_656).
 
 
 ### Dataset Organization
