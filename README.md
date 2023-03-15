@@ -145,7 +145,7 @@ python inference.py  --data_path  your_test_data_path  --model_path saved_model_
 ```
 cd ./code
 
-python inference.py  --default_data ./Trained_Model/model_abbreviation
+python inference.py  --default_data model_abbreviation
 ```
 
 * Three trained models are provided in our google drive, 
