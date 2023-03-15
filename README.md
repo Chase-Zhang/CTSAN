@@ -2,7 +2,7 @@
 
 ### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration   
 
-#### [Paper]() | [Discussion](https://github.com/ChiZhangGit/CTSAN/issues)
+#### [Paper]() | [Discussion](https://github.com/ChiZhangGit/CTSAN/issues) | [Open Source Data](https://github.com/ShuaiWangUESTC/CSSTN/tree/main/datasets/data/DeepVideoDeblurringDataset/test/data_656)
 
 * By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * equal contribution, † corresponding author ).
 
@@ -71,9 +71,7 @@ cupy:
    After download, please put them into this folder: "./Trained_Model".
    
    
-### Open Source Dataset
 
-* We have released a portion of testing sets in CSSTN website, please download from [here](https://github.com/ShuaiWangUESTC/CSSTN/tree/main/datasets/data/DeepVideoDeblurringDataset/test/data_656).
 
 
 ### Dataset Organization
