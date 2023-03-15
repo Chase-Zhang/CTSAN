@@ -103,25 +103,38 @@ Please organize your prepared training/validation/testing sets ( .img or .jpg im
 ```
 cd ./code
 
-python main.py --save  path_to_save_result  --dir_data train_data_path   --dir_data_test validation_data_path  --epochs total_epoch_number  --batch_size 8
+python main.py --save  path_to_save_your_result  --dir_data your_training_data_path   --dir_data_test your_validation_data_path  --epochs total_epoch_number  --batch_size 8
 ``` 
 
-The result will be saved in "./experiment".  
+After setting these five parameters, the result will be saved in "./experiment".  
 
 If you want to get some intermediate results, please set the optional item save_images in the path of "./code/option/init.py" as True, which will greatly prolong the training time.
 
 
 ### Inference
 
+1. test on your own trained parameter：
 ```
 cd ./code
 
-python inference.py  --data_path  test_data_path  --model_path saved_model_parameter_path  
+python inference.py  --data_path  your_test_data_path  --model_path saved_model_parameter_path  
 ```
 
-The result will be saved in "./infer_results".
+After setting these two paths, the result will be saved in "./infer_results".
 
 If you want to save the restored results as image formats, please set the optional item save_images in the path of "./code/inference.py" as True, which will greatly prolong the inference time.
+
+
+
+2. test using our trained parameter:
+
+Please set your test data according the dir in the bottom of inference.py, and then:
+```
+cd ./code
+
+python inference.py  --default_data ./Trained_Model/model_name.pt
+```
+Three trained models are provided in our google drive, CTSAN_TiO_Convergent.pt for restoring 705nm data (--default_data  TiO), CTSAN_Dual_Convergent.pt for restoring 656nm or 705nm data (--default_data  Dual). We also provide a Early Stop model named CTSAN_656nm2_EarlyStop.pt, which is to restore the second 656nm data (--default_data  EarlyStop).
 
 
 ### Citation
