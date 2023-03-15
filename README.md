@@ -14,7 +14,7 @@
 
 * An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
 single TSAN unit. Panel (c) shows the forward process of CTSAN. 
-* Only one set of TSAN parameter is trained during the backward propagation fo CTSAN and then is used four times to construct a cascaded two-stage architecture in forward propagation of CTSAN. 
+* Only one set of TSAN parameter is trained during the backward propagation of CTSAN and then is used four times to construct a cascaded two-stage architecture in forward propagation of CTSAN. 
 
 
 ![CTSAN](./img_display/CTSAN.png)
