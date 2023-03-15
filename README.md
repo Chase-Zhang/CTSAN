@@ -6,7 +6,7 @@
 By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao ( * : Authors contributed equally ).
 
 
-This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP)(CVPR2020) and [EDVR](https://xinntao.github.io/projects/EDVR)(CVPRW2019). We truly and sincerely thank their open source contributions !
+This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
 
 
 ### Overview
