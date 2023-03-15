@@ -3,6 +3,14 @@
 ### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration
 
 
+By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao ( * : Authors contributed equally ).
+
+
+This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their contributions !
+
+
+### Overview
+
 An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
 single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of TSAN parameter is trained during backward propagation and then used four times in forward propagation to construct the cascaded two-stage architecture. 
 
@@ -10,9 +18,11 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of 
 ![CTSAN](./img_display/CTSAN.png)
 
 
+CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
+
 ![results](./img_display/result_5th.png)
 
-CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
+
 
 
 ### Environments and Dependencies
@@ -113,7 +123,7 @@ If you want to get some intermediate results, please set the optional item save_
 
 ### Inference
 
-1. test on your own trained parameter：
+#### 1. test on your own trained parameter：
 ```
 cd ./code
 
@@ -126,15 +136,21 @@ If you want to save the restored results as image formats, please set the option
 
 
 
-2. test using our trained parameter:
+#### 2. test using our trained parameter:
 
-Please set your test data according the dir in the bottom of inference.py, and then:
+Please set your test data according the dir at the last few lines of file inference.py, and then:
 ```
 cd ./code
 
 python inference.py  --default_data ./Trained_Model/model_name.pt
 ```
-Three trained models are provided in our google drive, CTSAN_TiO_Convergent.pt for restoring 705nm data (--default_data  TiO), CTSAN_Dual_Convergent.pt for restoring 656nm or 705nm data (--default_data  Dual). We also provide a Early Stop model named CTSAN_656nm2_EarlyStop.pt, which is to restore the second 656nm data (--default_data  EarlyStop).
+Three trained models are provided in our google drive, 
+
+	CTSAN_TiO_Convergent.pt for restoring 705nm data (--default_data  TiO), 
+
+	CTSAN_Dual_Convergent.pt for restoring 656nm or 705nm data (--default_data  Dual). 
+
+	CTSAN_656nm2_EarlyStop.pt, an Early Stop model to restore the second 656nm data (--default_data  EarlyStop).
 
 
 ### Citation
