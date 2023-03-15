@@ -18,7 +18,7 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of 
 ![CTSAN](./img_display/CTSAN.png)
 
 ### Result
-CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
+CTSAN has a stable performance in restoring lowest granulation contrast multi-frames of TiO band captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
 
 ![results](./img_display/result_5th.png)
 
