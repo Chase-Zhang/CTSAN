@@ -139,6 +139,14 @@ If you want to save the restored results as image formats, please set the option
 #### 2. test using our trained parameter:
 
 
+
+Please place your test data and our trained parameter according to the dir at the last few lines of file inference.py, and then:
+```
+cd ./code
+
+python inference.py  --default_data ./Trained_Model/model_abbreviation
+```
+
 Three trained models are provided in our google drive, 
 
 	CTSAN_TiO_Convergent.pt for restoring 705nm data (--default_data  TiO), 
@@ -146,15 +154,6 @@ Three trained models are provided in our google drive,
 	CTSAN_Dual_Convergent.pt for restoring 656nm or 705nm data (--default_data  Dual). 
 
 	CTSAN_656nm2_EarlyStop.pt, an Early Stop model to restore the second 656nm data (--default_data  EarlyStop).
-
-
-Please set your test data according to the dir at the last few lines of file inference.py, and then:
-```
-cd ./code
-
-python inference.py  --default_data ./Trained_Model/model_abbreviation
-```
-
 
 ### Citation
 
