@@ -111,7 +111,7 @@ cupy:
 ```
 cd ./code
 
-python main.py --save  path_to_save_your_result  --dir_data your_training_data_path   --dir_data_test your_validation_data_path  --epochs total_epoch_number  --batch_size 8
+python main.py --save  path_to_save_your_result  --dir_data your_training_data_path   --dir_data_test your_validation_data_path  --epochs your_total_epoch_number  --batch_size 8
 ``` 
 
 * After setting these five parameters, the result will be saved in "./experiment".  
