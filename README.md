@@ -3,7 +3,7 @@
 ### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration
 
 
-By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao ( * : Authors contributed equally ).
+By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * authors contributed equally, † corresponding author ).
 
 
 This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
@@ -17,7 +17,7 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN. Only one set of 
 
 ![CTSAN](./img_display/CTSAN.png)
 
-
+### Result
 CTSAN has a stable performance on the lowest granulation contrast frames of TiO AO closed-loop images captured by NVST telescope with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
 
 ![results](./img_display/result_5th.png)
