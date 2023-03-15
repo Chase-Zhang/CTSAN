@@ -2,7 +2,7 @@
 
 ### Cascaded Temporal and Spatial Attention Network for Solar AO Image Restoration   
 
-#### [Paper Link]() | [Discussion](https://github.com/ChiZhangGit/CTSAN/issues)
+#### [Paper]() | [Discussion](https://github.com/ChiZhangGit/CTSAN/issues)
 
 * By Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * equal contribution, † corresponding author ).
 
