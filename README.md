@@ -56,7 +56,7 @@ cupy:
 	pip install cupy-cuda117 or conda install -c anaconda cupy
 	
 ```
-### Download
+### Download from Google Drive
 
 1. Please download the PWC-Net Pretrained parameter frome [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if your want to train/test CTSAN.  
 
