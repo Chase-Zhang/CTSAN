@@ -7,9 +7,6 @@
 * Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao ( * equal contribution ).
 
 
-* This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
-
-
 ### Overview
 
 * An overview of the proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
