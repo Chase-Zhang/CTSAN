@@ -33,7 +33,7 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN.
 
 Python 3 (Anaconda is preferred)  
 
-Pytorch:  ```conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia```	
+Pytorch: ```conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia```	
 
 numpy: ```conda install numpy```  
 
@@ -41,7 +41,7 @@ matplotlib: ```conda install matplotlib```
 
 opencv: ```conda install oepncv```
 
-imageio:```conda install imageio```
+imageio: ```conda install imageio```
 
 skimage: ```conda install scikit-image```
 
