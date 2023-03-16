@@ -154,7 +154,7 @@ python inference.py  --default_data model_abbreviation
 	CTSAN_656nm2_EarlyStop.pt, an Early Stop model to restore the second 656nm data (--default_data  EarlyStop).
 
 ### Citation
-
+```
 @article{zhang2023cascaded,  
   title={Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration},  
   author={Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao},  
@@ -164,7 +164,7 @@ python inference.py  --default_data model_abbreviation
   year={2023},  
   publisher={EDP Sciences}  
 }
-
+```
 
 ### Contact Us
 
