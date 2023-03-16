@@ -19,10 +19,12 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN.
 
 ![CTSAN](./img_display/CTSAN.png)
 
-### Result
-* CTSAN has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions.
+### Result and Significance
+* CTSAN has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions, thus reduce the dependancy on Speckle Imaging that has a considerable computing costs.
 
 ![results](./img_display/result_5th.png)
+
+
 
 
 
