@@ -15,12 +15,14 @@
 * An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
 single TSAN unit. Panel (c) shows the forward process of CTSAN. 
 * Only one set of TSAN parameter is trained during the backward propagation of CTSAN and then is used four times to construct a cascaded two-stage architecture in forward propagation of CTSAN. 
+* PWC-Net is used as pixel-wise aligning module, while attention mechanism modules TSA, TSP and HEM are aimed at focus on some features which can improve reconstructed image quality. 
 
 
 ![CTSAN](./img_display/CTSAN.png)
 
 ### Result and Significance
-* CTSAN has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions, thus reduce the dependancy on Speckle Imaging that has a considerable computing costs.
+
+* CTSAN outperforms EDDNN and CSSTN in restoring five real solar AO images, and has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions, thus decrease the dependancies on Speckle Imaging that has a considerable computing costs.
 
 ![results](./img_display/result_5th.png)
 
