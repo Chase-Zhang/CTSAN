@@ -12,17 +12,17 @@
 
 ### Overview
 
-* An overview of proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
+* An overview of the proposed CTSAN architecture. Panel (a) shows the network detail of the TSAN unit. Panel (b) is the input and output of a
 single TSAN unit. Panel (c) shows the forward process of CTSAN. 
-* Only one set of TSAN parameter is trained during the backward propagation of CTSAN and then is used four times to construct a cascaded two-stage architecture in forward propagation of CTSAN. 
-* Optical flow estimating module PWC-Net is used as a pixel-wise aligning module, while attention mechanisms TSA, TSP and HEM are aimed at focus on some features which can improve reconstructed image quality. 
+* Only one set of TSAN parameters is trained during the backward propagation of CTSAN and then is used four times to construct a cascaded two-stage architecture in the forward propagation of CTSAN. 
+* Optical flow estimating module PWC-Net is used as a pixel-wise aligning module, while attention mechanisms TSA, TSP, and HEM are aimed at focusing on some features which can improve reconstructed image quality. 
 
 
 ![CTSAN](./img_display/CTSAN.png)
 
 ### Result and Significance
 
-* CTSAN outperforms EDDNN and CSSTN in restoring five real solar AO images, and has a stable performance in restoring lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may has the potential to maintain a stable performance in actual astronomical observation conditions, thus decrease the dependancies on Speckle Imaging that has a considerable computing costs.
+* CTSAN outperforms EDDNN and CSSTN in restoring five real solar AO images, and has stable performance in restoring the lowest granulation contrast frames of TiO band captured by [NVST telescope](http://fso.ynao.ac.cn/index.aspx) with GLAO correction system, indicating our cascaded network may have the potential to maintain stable performance in actual astronomical observation conditions, thus decrease the dependencies on Speckle Imaging that has considerable computing costs.
 
 ![results](./img_display/result_5th.png)
 
@@ -33,7 +33,7 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN.
 
 ### Environments and Dependencies
 
-* We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
+* We run CTSAN model on Linux sytems with the configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
 
 Python 3 (Anaconda is preferred)  
 
@@ -58,13 +58,13 @@ cupy: ```pip install cupy-cuda117``` or ```conda install -c anaconda cupy```
 
 * Please download the PWC-Net pre-trained parameter from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if your want to train/test CTSAN.  
 
-   After download the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
+   After downloading the file named network-default.pytorch, please put it into this folder: "./pretrain_models".  
 		
 
 
 * Please download our trained parameters from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link)  if you want to use the CTSAN parameters trained on our NVST real AO dataset.  
 
-   After download these three .pt files, please put them into this folder: "./Trained_Model".
+   After downloading these three .pt files, please put them into this folder: "./Trained_Model".
    
    
 
