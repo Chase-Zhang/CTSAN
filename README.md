@@ -4,7 +4,7 @@
 
 #### [Paper]() | [Accessible Data](https://github.com/ShuaiWangUESTC/CSSTN/tree/main/datasets/data/DeepVideoDeblurringDataset/test/data_656) | [Discussion](https://github.com/ChiZhangGit/CTSAN/issues) 
 
-* Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao† ( * equal contribution, † corresponding author ).
+* Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao ( * equal contribution ).
 
 
 * This work is based on [CDVD-TSP](https://github.com/csbhr/CDVD-TSP) and [EDVR](https://xinntao.github.io/projects/EDVR). We truly and sincerely thank their open source contributions !
