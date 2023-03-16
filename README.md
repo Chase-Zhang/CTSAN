@@ -30,34 +30,26 @@ single TSAN unit. Panel (c) shows the forward process of CTSAN.
 ### Environments and Dependencies
 
 * We run CTSAN model on Linux sytem with configuration of Ubuntu 20.04, CUDA 11.7, and GPU RTX 3090.  
-```
+
 Python 3 (Anaconda is preferred)  
 
-Pytorch:   
-	conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-	
-numpy: 
-	conda install numpy
-	
-matplotlib: 
-	conda install matplotlib
-	
-opencv: 
-	conda install oepncv
-	
-imageio:
-	conda install imageio
-	
-skimage: 
-	conda install scikit-image
-	
-tqdm: 
-	conda install tqdm
-	
-cupy: 
-	pip install cupy-cuda117 or conda install -c anaconda cupy
-	
-```
+Pytorch:  ```conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia```	
+
+numpy: ```conda install numpy```  
+
+matplotlib: ```conda install matplotlib```
+
+opencv: ```conda install oepncv```
+
+imageio:```conda install imageio```
+
+skimage: ```conda install scikit-image```
+
+tqdm: ```conda install tqdm```
+
+cupy: ```pip install cupy-cuda117``` or ```conda install -c anaconda cupy```
+
+
 ### Download from Google Drive
 
 * Please download the PWC-Net pre-trained parameter from [here](https://drive.google.com/drive/folders/11Sr3S2sEzwB4XUq4-SYfTcDN06P3qu9M?usp=share_link) if your want to train/test CTSAN.  
