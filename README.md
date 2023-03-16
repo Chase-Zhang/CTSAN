@@ -147,7 +147,7 @@ python inference.py  --default_data model_abbreviation
 
 	CTSAN_Dual_Convergent.pt for restoring 656nm or 705nm data (--default_data  Dual). 
 
-	CTSAN_656nm2_EarlyStop.pt, an Early Stop model to restore the second 656nm data (--default_data  EarlyStop).
+	CTSAN_656nm2_EarlyStop.pt, an Early Stop dual-trained model to restore the second 656nm data (--default_data  EarlyStop).
 
 ### Citation
 ```
