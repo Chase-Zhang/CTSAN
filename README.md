@@ -150,7 +150,7 @@ python inference.py  --default_data model_abbreviation
 ```
 @article{zhang2023cascaded,  
   title={Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration},  
-  author={Chi Zhang*, Shuai Wang*, Libo Zhong, Qingqing Chen, Changhui Rao},  
+  author={Zhang, Chi* and Wang, Shuai* and Zhong, Libo and Chen, Qingqing and Rao, Changhui},  
   journal={Astronomy \& Astrophysics},  
   volume={ },  
   pages={ },  
