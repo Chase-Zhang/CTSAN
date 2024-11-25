@@ -148,14 +148,15 @@ python inference.py  --default_data model_abbreviation
 
 ### Citation
 ```
-@article{zhang2023cascaded,  
-  title={Cascaded Temporal and Spatial Attention Network for Solar Adaptive Optics Image Restoration},  
-  author={Zhang, Chi and Wang, Shuai and Zhong, Libo and Chen, Qingqing and Rao, Changhui},  
-  journal={Astronomy \& Astrophysics},  
-  volume={674},  
-  pages={A126},  
-  year={2023},  
-  publisher={EDP Sciences}  
+@article{ refId0,
+	author = {{Zhang, Chi} and {Wang, Shuai} and {Zhong, Libo} and {Chen, Qingqing} and {Rao, Changhui}},
+	title = {Cascaded Temporal and Spatial Attention Network for solar adaptive optics image restoration},
+	DOI= "10.1051/0004-6361/202244904",
+	url= "https://doi.org/10.1051/0004-6361/202244904",
+	journal = {A&A},
+	year = 2023,
+	volume = 674,
+	pages = "A126",
 }
 ```
 
